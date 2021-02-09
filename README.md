@@ -23,9 +23,28 @@
 3. отображение игрового поля и взаимодействие с ним;
 4. отображение подсказок на поле.
 
-Архитектура отображения:
+Архитектура программы игры:
 ![Структура_игры](https://i.pinimg.com/originals/9b/4f/ac/9b4facd5df535011a4f657e12ab61f87.png)
 
+Структура программы игры: <br>
+```
+  server.js 
+        ┌ 
+        │  game-logic.js 
+        │  index.html 
+        │  /static 
+        │  │ ┌
+express │  └─│ index.js
+        │    │ jquery-3.4.1.min.js
+        │    └
+        │  /style
+        │  │ ┌
+        │  │ │ main.css
+        │  └─│ bootstrap.js
+        │    │ style-game-chat.css
+        │    └
+        └ 
+```
 # Структура сайта веб-игры
 
 
