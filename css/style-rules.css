@@ -1,0 +1,235 @@
+@media (min-width: 770px) {
+  .description {  
+    padding-top: 25%;
+  }
+}
+
+@media (max-width: 770px) {
+  .description {  
+    padding-top: 10%;
+  }
+}
+
+html, body {  
+  background-color: #E4DBBF;
+}
+
+
+.brand-img{
+  padding-top: 10px;
+}
+
+.row{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.col-md-12{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.brand-img{
+	padding-left: 10px;
+}
+
+
+header{
+	text-align: center;
+}
+
+
+footer{
+	text-align: center;	
+	background-color: #70AB8F;
+}
+
+
+
+.my-center{	
+  	align-items: center;	
+}
+
+.top-carousel{
+	padding-top: 2%;
+}
+
+.prev-btn{
+	
+	z-index: 5;
+}
+
+.next-btn{
+	
+	z-index: 5;
+}
+
+.my-indicator{
+	margin-bottom: 0%;
+}
+
+.carousel-indicators li{
+	width: 4px;
+	height: 4px;
+	border-radius: 100%;
+}
+
+.carousel-description{
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	z-index: 0;
+}
+
+.description{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom:30%;
+	z-index: 0;
+	text-shadow: 1px 1px 2px black;
+}
+
+
+.line{
+	margin-top: 2%;
+	padding-bottom: 1%;
+	background-color: #70AB8F;
+}
+
+.my-text-right{
+	text-align: right;
+}
+
+
+.my-text-left{
+	text-align: left;
+}
+
+
+.my-img{
+
+}
+
+.my-row{
+	margin-top: 2%;
+	margin-bottom: 3%;
+}
+
+h1 { 
+	color: #ffffff; 
+	font-family: ‘Raleway’,
+	sans-serif; 
+	font-size: 300%; 
+	font-weight: 800; 
+	line-height: 72px; 
+	text-align: center; 
+	text-transform: uppercase; 
+
+	text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+
+.gif-with-play {
+  position: relative;
+}
+ 
+.gif-with-play:hover {
+  cursor: pointer;
+}
+ 
+.gif-with-play:hover:before {
+  background-color: rgba(255,255,255,.56);
+}
+ 
+.gif-with-play:after,
+.play.gif-with-play:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 50px;
+  width: 50px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: 10;
+  -webkit-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  transition: all .35s ease;
+  opacity: 1;
+}
+ 
+.gif-with-play:after {
+  background-image: url('../img/circled-play.png');
+}
+
+.play.gif-with-play:after{
+  background-image: url('');
+}
+ 
+.play.gif-with-play:not(:hover):after {
+  opacity: .35;
+}
+ 
+.gif-with-play:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  height: 100%;
+  width: 90%;
+  background-color: rgba(255,255,255,.7);
+  z-index: 10;
+  -webkit-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  transition: all .35s ease;
+  opacity: 1;
+}
+ 
+.play.gif-with-play:before {
+  background-color: rgba(255,255,255,0);
+}
+ 
+.gif-with-play img {
+  opacity: 1;
+  -webkit-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  transition: all .35s ease;
+}
+ 
+.gif-with-play.loading-hide img {
+  opacity: 0;
+}
+ 
+.loading-hide.gif-with-play:after,
+.loading-hide.play.gif-with-play:after{
+  opacity: 0;
+}
+ 
+@media screen and (max-width: 768px) {
+  .gif-with-play:after,
+  .play.gif-with-play:after {
+    height: 60px;
+    width: 60px;
+  }
+}

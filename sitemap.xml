@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+        <url>
+            <loc>https://vikingsgameonline.ru/index.html</loc>
+            <lastmod>2020-01-04</lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.8</priority>
+        </url>
+
+        <url>
+            <loc>https://vikingsgameonline.ru/pages/game.html</loc>
+            <lastmod>2020-01-04</lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.7</priority>
+        </url>
+
+        <url>
+            <loc>https://vikingsgameonline.ru/pages/rules.html</loc>
+            <lastmod>2020-01-04</lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.5</priority>
+        </url>
+
+        <url>
+            <loc>https://vikingsgameonline.ru/pages/feedback.html</loc>
+            <lastmod>2020-01-04</lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.6</priority>
+        </url>
+		
+		<url>
+            <loc>https://vikingsgameonline.ru/game</loc>
+            <lastmod>2020-05-13</lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.7</priority>
+        </url>
+
+        <url>
+            <loc>https://vikingsgameonline.ru/rules</loc>
+            <lastmod>2020-05-13</lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.5</priority>
+        </url>
+
+        <url>
+            <loc>https://vikingsgameonline.ru/feedback</loc>
+            <lastmod>2020-05-13</lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.6</priority>
+        </url>
+        
+    </urlset>

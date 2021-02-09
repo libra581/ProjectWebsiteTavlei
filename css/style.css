@@ -1,0 +1,115 @@
+html, body {  
+  background-color: #E4DBBF;
+}
+
+.brand-img{
+	padding-top: 10px;
+}
+
+.row{
+	margin: 0%;
+}
+
+.contentbody{
+	margin: 15%;
+}
+
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.col-md-12{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.brand-img{
+	padding-left: 10px;
+}
+
+
+header{
+	text-align: center;
+}
+
+
+footer{
+	text-align: center!important;	
+	background-color: #70AB8F;
+	margin: 0%;
+}
+
+
+
+.my-center{	
+  	align-items: center;	
+}
+
+.top-carousel{
+	padding-top: 2%;
+}
+
+.prev-btn{
+	
+	z-index: 5;
+}
+
+.next-btn{
+	
+	z-index: 5;
+}
+
+.my-indicator{
+	margin-bottom: 0%;
+}
+
+.carousel-indicators li{
+	width: 4px;
+	height: 4px;
+	border-radius: 100%;
+}
+
+.carousel-description{
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	z-index: 0;
+}
+
+.description{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 25%;
+	padding-bottom:30%;
+	z-index: 0;
+	text-shadow: 1px 1px 2px black;
+}
+
+
+.line{
+	margin-top: 2%;
+	padding-bottom: 2%;
+	background-color: #70AB8F;
+}
+
+.my-text-right{
+	text-align: right;
+}
+
+
+.my-text-left{
+	text-align: left;
+}
+
+
+.my-img{
+
+}
+
+.my-row{
+	margin-top: 2%;
+	margin-bottom: 3%;
+}

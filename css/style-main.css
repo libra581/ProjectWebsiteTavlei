@@ -1,0 +1,124 @@
+@media (min-width: 770px){
+	.center-img{
+		margin-top: 50px;
+	}
+
+	.center-img-2{
+		margin-top: 25px;
+	}
+
+	.plan-client1{
+		margin-top: 7%;
+		margin-bottom: 0%;
+	}
+	.plan-client2{
+		margin-top: 0%;
+		margin-bottom: 7%;
+	}
+}
+
+@media (max-width: 770px){
+	.center-img{
+		margin-top: 0px;
+	}
+
+	.center-img-2{
+		margin-top: 0px;
+	}
+
+	.plan-client1{
+		margin-top: 7%;
+		margin-bottom: 0%;
+	}
+	.plan-client2{
+		margin-top: 0%;
+		margin-bottom: 7%;
+	}
+}
+
+
+
+
+html, body {  
+  background-color: #E4DBBF;
+}
+
+.row{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.brand-img{
+	padding-top: 10px;
+}
+
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.col-md-12{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.brand-img{
+	padding-left: 10px;
+}
+
+
+header{
+	text-align: center;
+}
+
+div.contentbody{
+	text-align: center;	
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+footer{
+	text-align: center;	
+	background-color: #70AB8F;
+}
+
+.start-game{	
+	background-image: url(../img/background-viking-2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-color: #70AB8F;	
+}
+
+
+.start-game-text{
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	text-align: left;
+	padding-left: 5%;
+	padding-top:7%;
+	padding-bottom:7%;
+}
+
+.feedback-game{
+	background-image: url(../img/background-viking-1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-color: #70AB8F;
+
+}
+
+.feedback-game-text{
+	text-shadow: 1px 1px 2px white;
+	color: black;
+	text-align: right;
+	padding-right: 5%;
+	padding-top:7%;
+	padding-bottom:7%;
+}
+
+
+
+.my-center{	
+  	align-items: center;	
+}
+

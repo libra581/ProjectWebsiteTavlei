@@ -1,0 +1,58 @@
+html, body {  
+  background-color: #E4DBBF;
+}
+
+.row{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.brand-img{
+	padding-top: 10px;
+}
+
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.col-md-12{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.brand-img{
+	padding-left: 10px;
+}
+
+
+header{
+	text-align: center;
+}
+
+
+footer{
+	text-align: center;	
+	background-color: #70AB8F;
+}
+
+.my-row{
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+.my-row-m{
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.row-title-feedback{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+
+.row-form-feedback{
+	margin-top: 5%;
+	margin-bottom: 150px;
+}

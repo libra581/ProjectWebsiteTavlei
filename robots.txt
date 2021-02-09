@@ -1,0 +1,3 @@
+User-agent: *
+Host: https://vikingsgameonline.ru
+Sitemap: https://vikingsgameonline.ru/sitemap.xml

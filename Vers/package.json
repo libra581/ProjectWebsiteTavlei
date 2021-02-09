@@ -1,0 +1,16 @@
+{
+  "name": "GAMESS",
+  "version": "1.0.0",
+  "description": "123",
+  "main": "index,js",
+  "scripts": {
+    "test": "console.log(\"hello world!!!\");"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "socket.io": "^2.3.0"
+  }
+}
