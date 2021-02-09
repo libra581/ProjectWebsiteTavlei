@@ -100,30 +100,53 @@ sitemap.xml
       <h2><strong>Появились вопросы?</strong></h2> 
       ```
       * meta keywords.
+      ```html
+      <meta name="keywords" content="Викинги, Хнефатафл, Тавлеи, 
+                                     играть, онлайн, Vikings, Tavlei, Hnefatafl"/> 
+      ```
     * Форматирование заголовков h1 - h6.
     * Оптимизация картинок
       * Разработаны уникальные картинки.
       * Использован тег alt.
       * Использован тег title.
+      ```html
+      <img src="img/favicon64.png" width="50" height="50" class="d-inline-block align-top " 
+           alt="Шлем викинга" title="Логотип Тавлеи Онлайн">
+      ```
     * Уникальность текста 100% (https://text.ru/).
 2. В части *внешней оптимизации*:
     * Анкорные ссылки с применением ключевых слов.
     * Графические ссылки.
-    * Выбран говорящий домен (vikingsgameonline.ru)
+    * Выбран говорящий домен (vikingsgameonline.ru).
 3. В части *внутренней оптимизации*:
     * Структура
       * Уровень вложенности страниц не более 2.
       * Дубли страниц устранены с помощью канонических ссылок.
+      ```html
+      <link rel="canonical" href="https://vikingsgameonline.ru" />
+      ```
     * Микроразметка
       * Реализованы текстовые сниппеты.
       * Применен стандарт [schema.org/Game](https://schema.org/Game).
       * Itemscope/itemtype.
+      ```html
+      <div itemscope itemtype="https://schema.org/Game">
+        <span itemprop="name" class="d-none">игра Тавлеи</span>
+        <span itemprop="gameLocation" class="d-none">Москва</span>
+        <span itemprop="numberOfPlayers" class="d-none">2</span>
+        <span itemprop="author" class="d-none">ClanBanan</span>
+      </div>
+      ```
     * Программная реализация 
       * Юзабилити, реализовано меню (навигация) по сайту.
+      * Использован на сайте SSL-сертификат.
       * Оформлен robots.txt.
       * Оформлен sitemap.xml.
       * Наличие кодов ответов сервера 301 и 404.
       * ЧПУ урлы.
+      ```
+      https://vikingsgameonline.ru/game
+      ```
       * Оформлен .htaccess для Apache.
       * Скорость загрузки сайта RUSSIA - 130ms (https://be1.ru/), EUROPE - 840ms (https://www.pingdom.com/). 
       * Валидность кода проверена и исправлена с помощью https://validator.w3.org/.
