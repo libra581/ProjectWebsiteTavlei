@@ -96,6 +96,9 @@ sitemap.xml
       * Google Trends.
     * Выделены ключевые слова 
       * strong.
+      ```html
+      <h2><strong>Появились вопросы?</strong></h2> 
+      ```
       * meta keywords.
     * Форматирование заголовков h1 - h6.
     * Оптимизация картинок
