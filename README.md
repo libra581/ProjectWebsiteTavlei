@@ -59,7 +59,7 @@ sitemap.xml
 /php/..
 /js/..
 ```
-
+# Mind-map проекта
 Объединяя и анализируя выше приведенные структуры можно выделить следующий план проекта в виде mind-map:<br>
 ![mindmap](https://i.pinimg.com/originals/b1/d3/57/b1d357b7b5367ceafd566d8fbbceee2f.png "Mind-map проекта")
 
