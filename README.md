@@ -3,10 +3,10 @@
 Функциональным назначением программы является предоставление пользователю возможности игры в Тавлеи (Хнефатафл) онлайн с любым другим пользователем в режиме 1 на 1. <br>
 
 В рамках проекта разработаны:<br>
-1. Сайт для клиентов:
+1. Сайт для клиентов с **адаптивной версткой**:
    * главная страница с header и footer;
    * страница с информацией об игре;
-   * страница обратной связи). 
+   * страница обратной связи. 
 2. Игра Тавлеи: 
    * страница меню;
    * страница игрового поля;
@@ -46,14 +46,44 @@ express │  └─│ index.js
         └ 
 ```
 # Структура сайта веб-игры
-
+```
+index.html
+├─ /page/feedback.html
+├─ /page/game.html
+└─ /page/rules.html
+.htaccess
+robots.txt
+sitemap.xml
+/css/..
+/img/..
+/php/..
+/js/..
+```
 
 # Средства разработки
-  (HTML5, CSS3, PHP, Bootstrap);
-  (Javascript, jQuery, NodeJS, Express, Socket.io).
+Для разработки сайта выбраны: 
+  * HTML v5;
+  * CSS v3.0;
+  * PHP;
+  * Bootstrap v4;
+  * Javascript;
+  * jQuery v3.4.1;
+  * Server: Apache/2.2.24.
+  
+Для разработки игры выбраны: 
+  * Javascript;
+  * NodeJS v12.18.1;
+  * Express;
+  * jQuery v3.4.1;
+  * Socket.io.
 
+# Макеты интерфейса пользователя
+![Главная_страница](https://i.pinimg.com/originals/13/99/a3/1399a3eff3dabc072782b7d2a12f7168.png "Макет главной страницы")<br>
+![Страница_правил](https://i.pinimg.com/originals/b6/47/55/b64755bea243f7fcfbcb5326b5700c81.png "Макет страницы об игре")<br>
+![Обратная_связь](https://i.pinimg.com/originals/74/2a/3e/742a3e152add97cd1edf5d78ee3895d4.png "Макет формы обратной связи")<br>
+![Игра](https://i.pinimg.com/originals/ae/05/2c/ae052c672cd11fcecfba84f8b7f69987.png "Макет игрового поля")<br>
 
-# Результат
+# Результат и характеристики
 Сайт расположен на домене [vikingsgameonline.ru][1] хостинга [hts.ru][2]
 
 # Поддержка
